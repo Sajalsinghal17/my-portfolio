@@ -1,4 +1,4 @@
-# 🚀 Abhinav's Personal Portfolio Website
+# 🚀 Sajal's Personal Portfolio Website
 
 <div align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
@@ -13,7 +13,7 @@
   <p><em>Showcasing technical expertise through cutting-edge web technologies and optimized user experience</em></p>
   
   [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-blue?style=for-the-badge)](https://abhinavphi.vercel.app)
-  [![GitHub](https://img.shields.io/badge/📂_Source_Code-GitHub-black?style=for-the-badge)](https://github.com/abhinav-phi/personal-website)
+  [![GitHub](https://img.shields.io/badge/📂_Source_Code-GitHub-black?style=for-the-badge)](https://github.com/Sajalsinghal17/my-portfolio)
 </div>
 
 ---
@@ -128,7 +128,7 @@ Ensure you have the following installed:
 
 ```bash
 # Clone the repository
-git clone https://github.com/abhinav-phi/personal-website.git
+git clone https://github.com/Sajalsinghal17/my-portfolio.git
 
 # Navigate to project directory
 cd personal-website
@@ -373,7 +373,7 @@ I welcome contributions, suggestions, and feedback! Here's how you can contribut
 
 1. **Fork the Repository**
    ```bash
-   git fork https://github.com/abhinav-phi/personal-website.git
+   git fork https://github.com/Sajalsinghal17/my-portfolio.git
    ```
 
 2. **Create Feature Branch**
@@ -414,7 +414,7 @@ git clone https://github.com/YOUR_USERNAME/personal-website.git
 cd personal-website
 
 # Add upstream remote
-git remote add upstream https://github.com/abhinav-phi/personal-website.git
+git remote add upstream https://github.com/Sajalsinghal17/my-portfolio.git
 
 # Install dependencies
 npm install
@@ -431,12 +431,12 @@ npm run dev
 
 ### Let's Connect and Build Something Amazing Together! 🚀
 
-**Abhinav** — Full-Stack Developer & Tech Enthusiast
+**Sajal Singhal** — Full-Stack Developer & Tech Enthusiast
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Website-blue?style=for-the-badge)](https://abhinavphi.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhinavphi/)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/abhinav-phi)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:abhinav.phi15@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sajal-singhal-169b4b277/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sajalsinghal17)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sajalsinghal172005@gmail.com)
 
 </div>
 
@@ -449,9 +449,9 @@ npm run dev
 
 ### 📧 Get In Touch
 
-- **Email**: [abhinav.phi15@gmail.com](mailto:abhinav.phi15@gmail.com)
-- **LinkedIn**: [linkedin.com/in/abhinavphi](https://www.linkedin.com/in/abhinavphi/)
-- **GitHub**: [github.com/abhinav-phi](https://github.com/abhinav-phi)
+- **Email**: [sajalsinghal172005@gmail.com](mailto:sajalsinghal172005@gmail.com)
+- **LinkedIn**: [linkedin.com/in/sajal-singhal](https://www.linkedin.com/in/sajal-singhal-169b4b277/)
+- **GitHub**: [github.com/sajal-singhal](https://github.com/Sajalsinghal17)
 - **Portfolio**: [abhinavphi.vercel.app](https://abhinavphi.vercel.app)
 
 ---
@@ -461,12 +461,12 @@ npm run dev
 ### 🌟 If you found this project interesting, please consider starring the repository!
 
 <div style="margin: 20px 0;">
-  <img src="https://img.shields.io/github/stars/abhinav-phi/personal-website?style=social" alt="GitHub stars">
-  <img src="https://img.shields.io/github/forks/abhinav-phi/personal-website?style=social" alt="GitHub forks">
-  <img src="https://img.shields.io/github/watchers/abhinav-phi/personal-website?style=social" alt="GitHub watchers">
+  <img src="https://img.shields.io/github/stars/Sajalsinghal17/my-portfolio?style=social" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/Sajalsinghal17/my-portfolio?style=social" alt="GitHub forks">
+  <img src="https://img.shields.io/github/watchers/Sajalsinghal17/my-portfolio?style=social" alt="GitHub watchers">
 </div>
 
-**Made with ❤️ and ☕ by Abhinav**
+**Made with ❤️ and ☕ by Sajal Singhal**
 
 *Crafted with modern web technologies and a passion for exceptional user experiences*
 
@@ -474,9 +474,9 @@ npm run dev
 
 ### 📊 Repository Stats
 
-![GitHub repo size](https://img.shields.io/github/repo-size/abhinav-phi/personal-website)
-![GitHub last commit](https://img.shields.io/github/last-commit/abhinav-phi/personal-website)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/abhinav-phi/personal-website)
+![GitHub repo size](https://img.shields.io/github/repo-size/Sajalsinghal17/my-portfolio)
+![GitHub last commit](https://img.shields.io/github/last-commit/Sajalsinghal17/my-portfolio)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Sajalsinghal17/my-portfolio)
 
 </div>
 
@@ -489,7 +489,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ```
 MIT License
 
-Copyright (c) 2024 Abhinav
+Copyright (c) 2025 Sajal Singhal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
