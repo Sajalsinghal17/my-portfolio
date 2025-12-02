@@ -5,51 +5,51 @@ import { RevealOnScroll } from "./animations/ScrollAnimations";
 import { TiltCard, HoverGlow, MagneticButton } from "./animations/InteractiveElements";
 import { Button } from "./ui/button";
 import { Award, Calendar, Trophy, ExternalLink, Sparkles } from "lucide-react";
-import pic1 from '/assets/awards/21-22.jpg';
-import pic2 from '/assets/awards/23-24.jpg';    
-import certificate1 from '/assets/certificates/photo.jpg';
-import certificate2 from '/assets/certificates/r1.jpg';
+import pic1 from '/assets/certificates/SRM.jpeg';
+import pic2 from '/assets/certificates/Hackathon.jpg';    
+import certificate1 from '/assets/certificates/Oracle.jpg';
+import certificate2 from '/assets/certificates/IIITDM.jpg';
 
 const achievements = [
     {
-        title: "CodeClash - The Battle of Logic & Code (11th Rank)",
-        issuer: "Lets Code Community",
-        date: "July 2025",
-        description: "Achieved 11th rank in DSA MasterMind - MCQ Elimination Round of CodeClash competition organized by Lets Code Community, demonstrating strong problem-solving skills in data structures and algorithms.",
-        category: "Programming",
+        title: "Internship Completion at IIITDM Jabalpur",
+        issuer: "HAM Lab, IIITDM Jabalpur",
+        date: "15/06/2025 to 30/07/2025",
+        description: "Completed a Summer Internship in the Hybrid Additive Manufacturing Lab at PDPM Indian Institute of Information Technology, Design and Manufacturing, Jabalpur, under the guidance of Dr. Manu Srivastava. During this internship, I participated in research activities related to Hybrid Additive Manufacturing and gained hands-on experience in CAD modeling and slicing for 3D printing, operating and maintaining additive manufacturing equipment, integrating subtractive and additive processes, designing circuits for automated systems, and analyzing and documenting experimental results.",
+        category: "Research",
         type: "Achievement",
         img: certificate2,
-        link: "https://unstop.com/certificate-preview/7a5f1540-aa78-4412-8156-c613f8b6eda5", 
+        link: "", 
         featured: true
     },
     {
-        title: "Frontend Battle 2.0 Participation",
-        issuer: "WebD, IIT Bhubaneswar",
-        date: "June 2025",
-        description: "Participated in Frontend Battle 2.0 competition with CarbonTrack - a carbon footprint tracking platform built with React and TypeScript. The project features interactive charts, emission calculations, and smart sustainability tips, demonstrating advanced frontend development skills.",
-        category: "Frontend",
-        type: "Participation",
+        title: "Oracle Certified Proffesional (Certificate of Recognition)",
+        issuer: "Oracle University",
+        date: "September 2025",
+        description: "I earned the Oracle Cloud Infrastructure 2025 Certified Developer Professional certification from Oracle University, officially recognizing my skills in developing, deploying, and managing applications on Oracle Cloud Infrastructure. This certification, demonstrates my proficiency in OCI services, cloud development practices, and the ability to work effectively within Oracle's cloud ecosystem.",
+        category: "Web Development",
+        type: "Achievement",
         img: certificate1,
         link: "", 
         featured: false
     },
     {
-        title: "Meritorious Student Award (Academic Year:2023-24)",
-        organization: "Govt. of India Secretariat Co-operative Thrift & Credit Society Ltd.",
-        date: "October 2024",
-        description: "Honored to receive the Meritorious Student Award for securing 90% in CBSE Class 12th exams with focus on Physics, Chemistry, and Mathematics. Awarded to students scoring 90% and above, along with ₹1,500 appreciation cheque.",
-        category: "Academic",
-        type: "Achievement",
+        title: "GEEK VERSE Hackathon Participation",
+        organization: "Geek Room USAR",
+        date: "May 2025",
+        description: "During the GeekVerse Hackathon, I presented RepuLens, an AI-driven reputation intelligence platform designed to help companies and consumers understand how public sentiment influences real-world outcomes. The project addressed the growing challenge of misinformation and rapid sentiment shifts across platforms, offering features like real-time monitoring, controversy detection, sentiment–stock correlation, and dual dashboards for businesses and users.",
+        category: "Web Development",
+        type: "Participation",
         img: pic2, 
         link: "", 
     },
     {
-        title: "Meritorious Student Award (Academic Year:2021-22)",
-        organization: "Govt. of India Secretariat Co-operative Thrift & Credit Society Ltd.",
-        date: "October 2022",
-        description: "Received the Meritorious Student Award for securing 94% in CBSE Class 10th exams while studying at ML Khanna DAV Public School. Awarded to students scoring 90% and above, along with ₹1,500 appreciation cheque.",
-        category: "Academic",
-        type: "Achievement",
+        title: "AICTE-VAANI sponsored National Workshop",
+        organization: "SRM Institute of Science and Technology, Ghaziabad",
+        date: "September 2024",
+        description: "Attended a national workshop on the fabrication of semiconductor devices and circuits, where I gained a deeper understanding of semiconductor fundamentals, fabrication workflows, device behavior, and practical challenges in modern electronics manufacturing. The workshop offered valuable exposure to real-world processes involved in chip development, strengthening my foundation in electronic device design and aligning with my coursework in microelectronics and fabrication technologies.",
+        category: "Semiconductors",
+        type: "Participation",
         img: pic1, 
         link: "", 
     }
@@ -80,11 +80,11 @@ const AchievementCard = ({ achievement, index }) => {
 
     const getCategoryColor = () => {
         switch (achievement.category) {
-            case "Frontend":
+            case "Web Development":
                 return "bg-gradient-to-r from-blue-600 to-cyan-600";
-            case "Academic":
+            case "Research":
                 return "bg-gradient-to-r from-blue-600 to-cyan-600";
-            case "Programming":
+            case "Semiconductors":
                 return "bg-gradient-to-r from-blue-600 to-cyan-600";
             default:
                 return "bg-gradient-to-r from-blue-600 to-cyan-600";

@@ -4,12 +4,9 @@ import { FadeInText, BlurText } from "./animations/TextReveal";
 import { RevealOnScroll } from "./animations/ScrollAnimations";
 import { TiltCard, HoverGlow, MagneticButton } from "./animations/InteractiveElements";
 import { Button } from "./ui/button";
-import medicalq from '/assets/projects/medicalq.png'; 
-import carbontrack from '/assets/projects/carbontrack.png'; 
-
-import bookstore from '/assets/projects/bookstore.png'; 
-import personal_portfolio from '/assets/projects/portfolio.png'; 
-import cf_tool from '/assets/projects/cfhelper.png'; 
+import megaBlogs from '/assets/projects/megaBlogs.png'; 
+import repulens from '/assets/projects/repulens.png'; 
+import personal_portfolio from '/assets/projects/portfolio.png';  
 import { Github, ExternalLink, Code, Sparkles } from "lucide-react";
 import {
   SiReact,
@@ -26,23 +23,30 @@ import {
   SiFirebase,
   SiGo,
   SiMysql,
-  SiDocker
+  SiDocker,
+  SiAppwrite,
+  SiRedux,
+  SiMongodb,
+  SiPostgresql,
+  SiTensorflow,
+  SiKubernetes
 } from "react-icons/si";
 
 
 const projects = [
 {
-  title: "MedicalQ",
-  description: "Think of it as Quora meets Reddit for Health, powered by verified doctors, real medical data, and AI-driven support.",
-  img: medicalq,
-  link: "https://medicalq.vercel.app/",
-  github_link: "https://github.com/abhinav-phi/MedicalQ",
+  title: "MegaBlogs",
+  description: "I built a full-stack blog platform where users can securely sign up, create and edit posts, format content with rich editing tools, upload media, and access their workspace seamlessly across devices—all within a responsive, user-friendly interface.",
+  img: megaBlogs,
+  link: "https://mega-blogs-one.vercel.app/",
+  github_link: "https://github.com/Sajalsinghal17/megaBlogs",
   tech: [
     { icon: SiReact, name: "React", color: "text-blue-500" },
-    { icon: SiTypescript, name: "TypeScript", color: "text-blue-600" },
+    { icon: SiJavascript, name: "JavaScript", color: "text-yellow-500" },
     { icon: SiTailwindcss, name: "TailwindCSS", color: "text-teal-500" },
-    { icon: SiNodedotjs, name: "Node.js", color: "text-green-500" },
-    { icon: SiFirebase, name: "Firebase", color: "text-orange-500" }
+    { icon: SiRedux, name: "Redux", color: "text-purple-500" },
+    { icon: SiAppwrite, name: "Appwrite", color: "text-orange-500" },
+    { icon: SiVite, name: "Vite", color: "text-purple-500" },
   ],
   category: "Full Stack",
   featured: true
@@ -63,46 +67,24 @@ const projects = [
 },
 
   {
-  title: "CarbonTrack",
-  description: "Carbon footprint tracking platform that helps users estimate, visualize, and reduce their daily emissions with smart analytics.",
-  img: carbontrack,
-  link: "https://carbontrack-hackathon-r1.vercel.app", 
-  github_link: "https://github.com/abhinav-phi/carbontrack",
+  title: "RepuLens",
+  description: "Built RepuLens, an AI-powered platform for real-time sentiment monitoring, controversy detection, and reputation analysis across major social platforms.",
+  img: repulens,
+  link: "https://repu-lens-c7r3.vercel.app/", 
+  github_link: "https://github.com/Sajalsinghal17/RepuLens-1",
   tech: [
     { icon: SiReact, name: "React", color: "text-blue-500" },
-    { icon: SiTypescript, name: "TypeScript", color: "text-blue-600" },
+    { icon: SiMongodb, name: "MongoDB", color: "text-green-600" },
     { icon: SiTailwindcss, name: "TailwindCSS", color: "text-teal-500" },
-    { icon: SiChartdotjs, name: "Chart.js", color: "text-pink-500" }
+    { icon: SiExpress, name: "Express.js", color: "text-yellow-500" },
+    { icon: SiNodedotjs, name: "Node.js", color: "text-green-500" },
+    { icon: SiPostgresql, name: "PostgreSQL", color: "text-blue-600" },
+    { icon: SiTensorflow, name: "TensorFlow", color: "text-orange-500" },
+    { icon: SiDocker, name: "Docker", color: "text-blue-500" },
+    { icon: SiKubernetes, name: "Kubernetes", color: "text-blue-500" }
   ],
-  category: "Frontend"
+  category: "Full Stack",
 },
-  {
-  title: "CF-Helper-Tool",
-  description: "Chrome extension for competitive programming that assists with Codeforces problem solving using multiple AI models.",
-  img: cf_tool,
-  link: "", 
-  github_link: "https://github.com/abhinav-phi/CF-Helper-Tool",
-  tech: [
-    { icon: SiJavascript, name: "JavaScript", color: "text-yellow-500" },
-    { icon: SiHtml5, name: "HTML5", color: "text-orange-500" },
-    { icon: SiCss3, name: "CSS3", color: "text-blue-500" },
-    { icon: SiGooglechrome, name: "Chrome APIs", color: "text-green-500" }
-  ],
-  category: "Browser Extension"
-},
-  {
-  title: "Bookstore API",
-  description: "RESTful API for bookstore inventory management with complete CRUD operations, built with clean architecture principles.",
-  img: bookstore,
-  link: "",
-  github_link: "https://github.com/abhinav-phi/bookstore-api",
-  tech: [
-    { icon: SiGo, name: "Go", color: "text-blue-400" },
-    { icon: SiMysql, name: "MySQL", color: "text-blue-600" },
-    { icon: SiDocker, name: "Docker", color: "text-blue-500" }
-  ],
-  category: "Backend"
-}
 ];
 
 const ProjectCard = ({ project, index }) => {
@@ -357,7 +339,7 @@ const Projects = () => {
   <Button
     size="lg"
     className="bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white px-8 py-4 text-lg rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 group/btn"
-    onClick={() => window.open('https://github.com/abhinav-phi?tab=repositories&q=&type=public&language=&sort=', '_blank')}
+    onClick={() => window.open('https://github.com/Sajalsinghal17?tab=repositories&q=&type=public&language=&sort=', '_blank')}
   >
     <Github className="w-5 h-5 mr-2 group-hover/btn:rotate-12 transition-transform" />
     View All Projects on GitHub

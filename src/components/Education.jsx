@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ModernCard } from "./ui/ModernCard";
-import NSUTLogo from "/assets/logo/NSUT.png";
+import MSITLogo from "/assets/logo/msit.png";
 import { FadeInText, BlurText } from "./animations/TextReveal";
 import { RevealOnScroll, FloatingElement, ParallaxContainer } from "./animations/ScrollAnimations";
 import { TiltCard } from "./animations/InteractiveElements";
@@ -40,11 +40,11 @@ const EducationAnimation = () => {
               className="max-sm:w-72 max-sm:h-72 rounded-2xl bg-gradient-to-br from-white/20 to-white/5 p-3 backdrop-blur-sm border border-white/10 shadow-lg"
             >
               <img
-                src={NSUTLogo}
-                alt="NSUT"
+                src={MSITLogo}
+                alt="MSIT"
                 className="w-full h-full object-contain rounded-xl"
                 onError={(e) => {
-                  e.target.src = "https://via.placeholder.com/440x440/4F46E5/FFFFFF?text=NSUT";
+                  e.target.src = "https://via.placeholder.com/440x440/4F46E5/FFFFFF?text=MSIT";
                 }}
               />
             </div>
@@ -145,7 +145,7 @@ const Education = () => {
                       className="text-2xl max-sm:text-xl font-bold bg-gradient-to-r from-amber-600 via-orange-600 to-yellow-600 dark:from-amber-400 dark:via-orange-400 dark:to-yellow-400 bg-clip-text text-transparent leading-tight mb-2"
                       whileHover={{ scale: 1.02 }}
                     >
-                      Netaji Subhas University of Technology
+                      Maharaja Surajmal Institute of Technology
                     </motion.h2>
                     
                     <div className="flex items-center gap-2 mb-2">
@@ -170,7 +170,7 @@ const Education = () => {
                     <Calendar className="w-5 h-5 max-sm:w-4 max-sm:h-4 text-blue-600 dark:text-blue-400" />
                     <div>
                       <p className="font-medium text-gray-800 dark:text-gray-200 max-sm:text-sm">Duration</p>
-                      <p className="text-gray-600 dark:text-gray-400 max-sm:text-xs">August 2024 - May 2028 (hopefully '28)</p>
+                      <p className="text-gray-600 dark:text-gray-400 max-sm:text-xs">September 2023 - May 2027</p>
                     </div>
                   </div>
 
@@ -179,7 +179,7 @@ const Education = () => {
                     <GraduationCap className="w-5 h-5 max-sm:w-4 max-sm:h-4 text-purple-600 dark:text-purple-400" />
                     <div>
                       <p className="font-medium text-gray-800 dark:text-gray-200 max-sm:text-sm">Specialization</p>
-                      <p className="text-gray-600 dark:text-gray-400 max-sm:text-xs">Computer Science and Engineering</p>
+                      <p className="text-gray-600 dark:text-gray-400 max-sm:text-xs">Electronics and Communication Engineering</p>
                     </div>
                   </div>
 
@@ -188,7 +188,7 @@ const Education = () => {
                     <MapPin className="w-5 h-5 max-sm:w-4 max-sm:h-4 text-green-600 dark:text-green-400" />
                     <div>
                       <p className="font-medium text-gray-800 dark:text-gray-200 max-sm:text-sm">Location</p>
-                      <p className="text-gray-600 dark:text-gray-400 max-sm:text-xs">Dwarka Mor, New Delhi, India</p>
+                      <p className="text-gray-600 dark:text-gray-400 max-sm:text-xs">Janakpuri, New Delhi, India</p>
                     </div>
                   </div>
                 </motion.div>

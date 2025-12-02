@@ -152,7 +152,7 @@ const Navbar = () => {
                 href="#about"
                 className="text-3xl max-sm:text-2xl font-bold bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent dark:from-cyan-400 dark:to-blue-400 hover:from-purple-600 hover:to-pink-600 transition-all duration-300"
               >
-                {<img src="/assets/logo/abhinav.phi_logo.png" alt="Logo" className="h-16 w-auto" />
+                {<img src="/assets/logo/sajal_logo.png" alt="Logo" className="h-16 w-auto" />
 }
               </a>
             </motion.div>

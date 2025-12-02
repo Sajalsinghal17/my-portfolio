@@ -1,5 +1,5 @@
 {
-  "name": "Abhinav",
+  "name": "Sajal",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -44,6 +44,6 @@
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.2",
     "terser": "^5.43.1",
-    "vite": "^7.0.4"
+    "vite": "^7.2.6"
   }
 }

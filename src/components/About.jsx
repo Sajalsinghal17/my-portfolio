@@ -140,7 +140,7 @@ const About = () => {
                 }}
                 transition={{ duration: 2, repeat: Infinity }}
               >
-                Abhinav
+                Sajal Singhal
                 <motion.div
                   className="absolute -top-2 -right-2"
                   animate={{

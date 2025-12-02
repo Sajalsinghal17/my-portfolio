@@ -57,7 +57,7 @@ const LoadingScreen = ({ loading }) => {
               className="mb-2"
             >
               <SplitText
-                text="Abhinav"
+                text="Sajal Singhal"
                 className="text-4xl font-bold bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent"
                 delay={100}
                 duration={0.6}
@@ -72,7 +72,7 @@ const LoadingScreen = ({ loading }) => {
             </motion.div>
 
             <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-400 bg-clip-text text-transparent">
-              {"<abhinav.phi/>"}
+              {"<SajalSinghal/>"}
             </h1>
 
             {/* Loader */}

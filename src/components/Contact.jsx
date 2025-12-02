@@ -19,28 +19,28 @@ import xLogo from '/assets/logo/x.png';
 const socialLinks = [
   {
     icon: SiGithub,
-    href: "https://github.com/abhinav-phi",
+    href: "https://github.com/Sajalsinghal17",
     label: "GitHub",
     color: "hover:text-gray-900 dark:hover:text-white",
     bgColor: "from-gray-700 to-black"
   },
   {
     icon: SiLinkedin,
-    href: "https://www.linkedin.com/in/abhinavphi/",
+    href: "https://www.linkedin.com/in/sajal-singhal-169b4b277/",
     label: "LinkedIn",
     color: "hover:text-blue-600",
     bgColor: "from-blue-600 to-blue-800"
   },
   {
     icon: SiInstagram,
-    href: "https://www.instagram.com/abhinav.phi/",
+    href: "https://www.instagram.com/sajalsinghal_/",
     label: "Instagram",
     color: "hover:text-pink-600",
     bgColor: "from-pink-500 to-purple-600"
   },
   {
     icon: null, 
-    href: "https://x.com/abhinav_phi",
+    href: "https://x.com/SajalSingh4165",
     label: "X",
     color: "hover:text-gray-900 dark:hover:text-white",
     bgColor: "from-gray-700 to-black",
@@ -48,14 +48,14 @@ const socialLinks = [
   },
   {
     icon: SiDiscord,
-    href: "https://discord.com/users/abhinav.phi",
+    href: "https://discordapp.com/users/747863878159040513",
     label: "Discord",
     color: "hover:text-indigo-600",
     bgColor: "from-indigo-500 to-purple-600"
   },
   {
     icon: SiGmail,
-    href: "mailto:abhinav.phi15@gmail.com",
+    href: "mailto:sajalsinghal172005@gmail.com",
     label: "Email",
     color: "hover:text-red-600",
     bgColor: "from-red-500 to-red-700"
@@ -169,7 +169,7 @@ const Contact = () => {
                     <Button 
                       className="w-full group bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white shadow-lg hover:shadow-xl transition-all duration-300"
                       size="lg"
-                      onClick={() => window.open("https://drive.google.com/file/d/1zcInGUrOZN8W7lElse6HEgdE24uPh9Va/view?usp=sharing", "_blank")}
+                      onClick={() => window.open("https://drive.google.com/file/d/1ekbVhODgkIUVoca2bfnOWJDqYSOuWL0i/view?usp=sharing", "_blank")}
                     >
                       <Download className="w-5 h-5 mr-2 group-hover:translate-y-1 transition-transform" />
                       Resume
@@ -181,7 +181,7 @@ const Contact = () => {
                       variant="outline"
                       className="w-full group border-2 border-blue-600 text-blue-600 dark:text-blue-400 hover:bg-blue-600 hover:text-white shadow-lg hover:shadow-xl transition-all duration-300"
                       size="lg"
-                      onClick={() => window.open("https://github.com/abhinav-phi/personal-website", "_blank")}
+                      onClick={() => window.open("https://github.com/Sajalsinghal17/my-portfolio", "_blank")}
                     >
                       <Star className="w-5 h-5 mr-2 group-hover:rotate-12 transition-transform" />
                       Star Project
@@ -215,7 +215,7 @@ const Contact = () => {
             >
               💙
             </motion.span>
-            by Abhinav
+            by Sajal Singhal
           </p>
         </motion.div>
       </div>

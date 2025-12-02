@@ -36,27 +36,31 @@ import numpyIcon from "/assets/skills/numpy.png";
 import pandasIcon from "/assets/skills/pandas.png";
 import matplotlibIcon from "/assets/skills/matplotlib.png";
 import pytorchIcon from "/assets/skills/pytorch.png";
+import nextIcon from "/assets/skills/next.png";
+import expressIcon from "/assets/skills/express.png";
+import postgresqlIcon from "/assets/skills/postgresql.png";
+import canvaIcon from "/assets/skills/canva.png";
 
 const skills = [
   // Languages
-  { name: "C++", img: cppIcon, category: "Languages", level: 85, color: "from-blue-600 to-purple-600" },
-  { name: "Python", img: pythonIcon, category: "Languages", level: 88, color: "from-yellow-500 to-blue-500" },
-  { name: "JavaScript", img: javascriptIcon, category: "Languages", level: 90, color: "from-yellow-400 to-orange-500" },
-  { name: "TypeScript", img: typescriptIcon, category: "Languages", level: 82, color: "from-blue-500 to-cyan-500" },
-  { name: "Go", img: goIcon, category: "Languages", level: 75, color: "from-cyan-400 to-blue-500" },
+  { name: "C++", img: cppIcon, category: "Languages", level: 92, color: "from-blue-600 to-purple-600" },
+  { name: "Python", img: pythonIcon, category: "Languages", level: 82, color: "from-yellow-500 to-blue-500" },
+  { name: "JavaScript", img: javascriptIcon, category: "Languages", level: 95, color: "from-yellow-400 to-orange-500" },
+  { name: "TypeScript", img: typescriptIcon, category: "Languages", level: 70, color: "from-blue-500 to-cyan-500" },
 
   // Web Technologies
   { name: "HTML5", img: htmlIcon, category: "Web Technologies", level: 95, color: "from-orange-500 to-red-500" },
   { name: "CSS3", img: cssIcon, category: "Web Technologies", level: 92, color: "from-blue-500 to-cyan-500" },
-  { name: "React.js", img: reactIcon, category: "Web Technologies", level: 88, color: "from-cyan-400 to-blue-500" },
+  { name: "React.js", img: reactIcon, category: "Web Technologies", level: 97, color: "from-cyan-400 to-blue-500" },
   { name: "Tailwind CSS", img: tailwindIcon, category: "Web Technologies", level: 90, color: "from-teal-400 to-cyan-500" },
-  { name: "Node.js", img: nodejsIcon, category: "Web Technologies", level: 80, color: "from-green-500 to-emerald-600" },
-  { name: "REST APIs", img: apiIcon, category: "Web Technologies", level: 85, color: "from-purple-500 to-pink-500" },
+  { name: "Node.js", img: nodejsIcon, category: "Web Technologies", level: 88, color: "from-green-500 to-emerald-600" },
+  { name: "Express.js", img: expressIcon, category: "Web Technologies", level: 85, color: "from-yellow-500 to-red-500" },
+  { name: "Next.js", img: nextIcon, category: "Web Technologies", level: 80, color: "from-purple-500 to-pink-500" },
 
   // Databases
-  { name: "MongoDB", img: mongodbIcon, category: "Databases", level: 82, color: "from-green-600 to-green-800" },
-  { name: "MySQL", img: mysqlIcon, category: "Databases", level: 78, color: "from-blue-600 to-orange-500" },
-  { name: "Firebase", img: firebaseIcon, category: "Databases", level: 85, color: "from-yellow-500 to-red-500" },
+  { name: "MongoDB", img: mongodbIcon, category: "Databases", level: 92, color: "from-green-600 to-green-800" },
+  { name: "PostgreSQL", img: postgresqlIcon, category: "Databases", level: 82, color: "from-cyan-600 to-blue-500" },
+  { name: "Firebase", img: firebaseIcon, category: "Databases", level: 78, color: "from-yellow-500 to-red-500" },
 
   // Tools & Platforms
   { name: "Git", img: gitIcon, category: "Tools & Platforms", level: 88, color: "from-orange-500 to-red-600" },
@@ -74,17 +78,18 @@ const skills = [
 
   // Design
   { name: "Figma", img: figmaIcon, category: "Design", level: 78, color: "from-purple-500 to-pink-500" },
+  { name: "Canva", img: canvaIcon, category: "Design", level: 95, color: "from-blue-600 to-purple-500" },
 
   // Others
-  { name: "Firebase Auth", img: firebaseIcon, category: "Others", level: 85, color: "from-yellow-500 to-red-500" },
-  { name: "Chrome DevTools", img: chromeIcon, category: "Others", level: 88, color: "from-red-500 to-yellow-500" },
-  { name: "Markdown", img: markdownIcon, category: "Others", level: 90, color: "from-gray-600 to-gray-800" },
+  // { name: "Firebase Auth", img: firebaseIcon, category: "Others", level: 85, color: "from-yellow-500 to-red-500" },
+  // { name: "Chrome DevTools", img: chromeIcon, category: "Others", level: 88, color: "from-red-500 to-yellow-500" },
+  // { name: "Markdown", img: markdownIcon, category: "Others", level: 90, color: "from-gray-600 to-gray-800" },
 
-  // ML & Data
-  { name: "NumPy", img: numpyIcon, category: "ML & Data", level: 80, color: "from-blue-600 to-cyan-600" },
-  { name: "Pandas", img: pandasIcon, category: "ML & Data", level: 78, color: "from-purple-600 to-pink-600" },
-  { name: "Matplotlib", img: matplotlibIcon, category: "ML & Data", level: 75, color: "from-blue-500 to-green-500" },
-  { name: "PyTorch", img: pytorchIcon, category: "ML & Data", level: 70, color: "from-orange-500 to-red-500" }
+  // // ML & Data
+  // { name: "NumPy", img: numpyIcon, category: "ML & Data", level: 80, color: "from-blue-600 to-cyan-600" },
+  // { name: "Pandas", img: pandasIcon, category: "ML & Data", level: 78, color: "from-purple-600 to-pink-600" },
+  // { name: "Matplotlib", img: matplotlibIcon, category: "ML & Data", level: 75, color: "from-blue-500 to-green-500" },
+  // { name: "PyTorch", img: pytorchIcon, category: "ML & Data", level: 70, color: "from-orange-500 to-red-500" }
 ];
 
 const categories = [
