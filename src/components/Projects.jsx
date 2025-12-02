@@ -55,8 +55,8 @@ const projects = [
   title: "Portfolio Website",
   description: "Personal portfolio website created with React and Tailwind CSS featuring modern animations and interactive elements",
   img: personal_portfolio, 
-  link: "https://abhinavphi.vercel.app",
-  github_link: "https://github.com/abhinav-phi/personal-website",
+  link: "https://sajal-singhal.vercel.app/",
+  github_link: "https://github.com/Sajalsinghal17/my-portfolio",
   tech: [
     { icon: SiReact, name: "React", color: "text-cyan-500" },
     { icon: SiTailwindcss, name: "TailwindCSS", color: "text-teal-500" },

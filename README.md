@@ -12,7 +12,7 @@
   <h3>🎯 A Modern, High-Performance Personal Portfolio</h3>
   <p><em>Showcasing technical expertise through cutting-edge web technologies and optimized user experience</em></p>
   
-  [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-blue?style=for-the-badge)](https://abhinavphi.vercel.app)
+  [![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-blue?style=for-the-badge)](https://sajal-singhal.vercel.app/)
   [![GitHub](https://img.shields.io/badge/📂_Source_Code-GitHub-black?style=for-the-badge)](https://github.com/Sajalsinghal17/my-portfolio)
 </div>
 
@@ -49,7 +49,7 @@ This portfolio represents the intersection of **modern web development** and **e
 
 ### 🌐 Live Demo
 
-**[🔗 Visit Portfolio](https://abhinavphi.vercel.app)**
+**[🔗 Visit Portfolio](https://sajal-singhal.vercel.app/)**
 
 ---
 
@@ -433,7 +433,7 @@ npm run dev
 
 **Sajal Singhal** — Full-Stack Developer & Tech Enthusiast
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Website-blue?style=for-the-badge)](https://abhinavphi.vercel.app)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Website-blue?style=for-the-badge)](https://sajal-singhal.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sajal-singhal-169b4b277/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sajalsinghal17)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sajalsinghal172005@gmail.com)
@@ -452,7 +452,7 @@ npm run dev
 - **Email**: [sajalsinghal172005@gmail.com](mailto:sajalsinghal172005@gmail.com)
 - **LinkedIn**: [linkedin.com/in/sajal-singhal](https://www.linkedin.com/in/sajal-singhal-169b4b277/)
 - **GitHub**: [github.com/sajal-singhal](https://github.com/Sajalsinghal17)
-- **Portfolio**: [abhinavphi.vercel.app](https://abhinavphi.vercel.app)
+- **Portfolio**: [sajal-singhal.vercel.app](https://https://sajal-singhal.vercel.app/)
 
 ---
 
