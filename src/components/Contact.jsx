@@ -169,7 +169,7 @@ const Contact = () => {
                     <Button 
                       className="w-full group bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white shadow-lg hover:shadow-xl transition-all duration-300"
                       size="lg"
-                      onClick={() => window.open("https://drive.google.com/file/d/1LgKxkPxADF_4A9PwVHNjjz-MnXPsN4qf/view?usp=sharing", "_blank")}
+                      onClick={() => window.open("https://drive.google.com/file/d/1k60uAxcSMf0e2b2H8AxzGP6SaDx-egSR/view?usp=sharing", "_blank")}
                     >
                       <Download className="w-5 h-5 mr-2 group-hover:translate-y-1 transition-transform" />
                       Resume
