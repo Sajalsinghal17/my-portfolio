@@ -15,7 +15,7 @@ const achievements = [
     {
         title: "Ex IT applications Intern at Honda India Power Products Ltd.",
         issuer: "Honda India Power Products Ltd. (HIPP)",
-        date: "15/06/20256 to 15/08/2026",
+        date: "15/06/2026 to 15/08/2026",
         description: "Completed a 2-month IT Applications Internship at Honda India Power Products Ltd. (HIPP) in the IT Division — Applications Department. During the internship, I gained hands-on experience with enterprise applications including Oracle APEX, DDMS and Qlik, strengthened my SQL and PL/SQL skills, designed a form and workflow for the DDMS application, and developed two major projects — Inventra AI, an AI-powered supply chain intelligence platform, and NexusOps, an IT operations and infrastructure management platform. I also strengthened my problem-solving and DSA skills while gaining practical experience in full-stack development, AI integration, database management, application workflows, and enterprise IT systems.",
         category: "Information Technology",
         type: "Achievement",

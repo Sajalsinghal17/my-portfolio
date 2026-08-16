@@ -35,7 +35,7 @@ import {
   SiOracle,
   SiApache,
   SiJsonwebtokens,
-  SiGooglegemini,
+  SiGoogle,
   SiVercel,
   SiRender
 } from "react-icons/si";
@@ -71,7 +71,7 @@ const projects = [
     { icon: SiExpress, name: "Express.js", color: "text-yellow-500" },
     { icon: SiNodedotjs, name: "Node.js", color: "text-green-500" },
     { icon: SiJsonwebtokens, name: "JWT", color: "text-purple-500" },
-    { icon: SiGooglegemini, name: "Google Gemini", color: "text-orange-500" },
+    { icon: SiGoogle, name: "Google Gemini", color: "text-orange-500" },
     { icon: SiVercel, name: "Vercel", color: "text-black" },
     { icon: SiRender, name: "Render", color: "text-blue-500" }
   ],
