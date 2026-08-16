@@ -40,6 +40,7 @@ import nextIcon from "/assets/skills/next.png";
 import expressIcon from "/assets/skills/express.png";
 import postgresqlIcon from "/assets/skills/postgresql.png";
 import canvaIcon from "/assets/skills/canva.png";
+import sqlIcon from "/assets/skills/sql.webp";
 
 const skills = [
   // Languages
@@ -47,6 +48,7 @@ const skills = [
   { name: "Python", img: pythonIcon, category: "Languages", level: 82, color: "from-yellow-500 to-blue-500" },
   { name: "JavaScript", img: javascriptIcon, category: "Languages", level: 95, color: "from-yellow-400 to-orange-500" },
   { name: "TypeScript", img: typescriptIcon, category: "Languages", level: 70, color: "from-blue-500 to-cyan-500" },
+  { name: "SQL", img: sqlIcon, category: "Languages", level: 85, color: "from-blue-500 to-cyan-500" },
 
   // Web Technologies
   { name: "HTML5", img: htmlIcon, category: "Web Technologies", level: 95, color: "from-orange-500 to-red-500" },
@@ -83,13 +85,13 @@ const skills = [
   // Others
   // { name: "Firebase Auth", img: firebaseIcon, category: "Others", level: 85, color: "from-yellow-500 to-red-500" },
   // { name: "Chrome DevTools", img: chromeIcon, category: "Others", level: 88, color: "from-red-500 to-yellow-500" },
-  // { name: "Markdown", img: markdownIcon, category: "Others", level: 90, color: "from-gray-600 to-gray-800" },
+  { name: "Markdown", img: markdownIcon, category: "Others", level: 90, color: "from-gray-600 to-gray-800" },
 
-  // // ML & Data
-  // { name: "NumPy", img: numpyIcon, category: "ML & Data", level: 80, color: "from-blue-600 to-cyan-600" },
-  // { name: "Pandas", img: pandasIcon, category: "ML & Data", level: 78, color: "from-purple-600 to-pink-600" },
-  // { name: "Matplotlib", img: matplotlibIcon, category: "ML & Data", level: 75, color: "from-blue-500 to-green-500" },
-  // { name: "PyTorch", img: pytorchIcon, category: "ML & Data", level: 70, color: "from-orange-500 to-red-500" }
+  // ML & Data
+  { name: "NumPy", img: numpyIcon, category: "ML & Data", level: 80, color: "from-blue-600 to-cyan-600" },
+  { name: "Pandas", img: pandasIcon, category: "ML & Data", level: 78, color: "from-purple-600 to-pink-600" },
+  { name: "Matplotlib", img: matplotlibIcon, category: "ML & Data", level: 75, color: "from-blue-500 to-green-500" },
+  { name: "PyTorch", img: pytorchIcon, category: "ML & Data", level: 70, color: "from-orange-500 to-red-500" }
 ];
 
 const categories = [

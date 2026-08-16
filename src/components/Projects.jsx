@@ -5,7 +5,9 @@ import { RevealOnScroll } from "./animations/ScrollAnimations";
 import { TiltCard, HoverGlow, MagneticButton } from "./animations/InteractiveElements";
 import { Button } from "./ui/button";
 import megaBlogs from '/assets/projects/megaBlogs.png'; 
-import repulens from '/assets/projects/repulens.png'; 
+import repulens from '/assets/projects/repulens.png';
+import inventra from '/assets/projects/inventraAI.png'; 
+import nexusOps from '/assets/projects/nexusOps.png';
 import personal_portfolio from '/assets/projects/portfolio.png';  
 import { Github, ExternalLink, Code, Sparkles } from "lucide-react";
 import {
@@ -29,27 +31,51 @@ import {
   SiMongodb,
   SiPostgresql,
   SiTensorflow,
-  SiKubernetes
+  SiKubernetes,
+  SiOracle,
+  SiApache,
+  SiJsonwebtokens,
+  SiGooglegemini,
+  SiVercel,
+  SiRender
 } from "react-icons/si";
+import { TbFileTypeSql } from "react-icons/tb"; // Tabler Icons
+
 
 
 const projects = [
 {
-  title: "MegaBlogs",
-  description: "I built a full-stack blog platform where users can securely sign up, create and edit posts, format content with rich editing tools, upload media, and access their workspace seamlessly across devices—all within a responsive, user-friendly interface.",
-  img: megaBlogs,
-  link: "https://mega-blogs-one.vercel.app/",
-  github_link: "https://github.com/Sajalsinghal17/megaBlogs",
+  title: "Inventra AI",
+  description: "Multi-tenant, multi-vertical (Pharma, Retail, Automotive) autonomous supply chain intelligence platform powered by a 5-agent PL/SQL pipeline for demand forecasting, risk detection, and LLM-generated reasoning. Self-hosted on an OCI Always Free VM with Let's Encrypt HTTPS.",
+  img: inventra,
+  link: "http://inventra-ai.duckdns.org/ords/r/inventra_ai/inventra-ai/",
+  github_link: "https://github.com/Sajalsinghal17/Inventra_AI.git",
   tech: [
-    { icon: SiReact, name: "React", color: "text-blue-500" },
-    { icon: SiJavascript, name: "JavaScript", color: "text-yellow-500" },
-    { icon: SiTailwindcss, name: "TailwindCSS", color: "text-teal-500" },
-    { icon: SiRedux, name: "Redux", color: "text-purple-500" },
-    { icon: SiAppwrite, name: "Appwrite", color: "text-orange-500" },
-    { icon: SiVite, name: "Vite", color: "text-purple-500" },
+    { icon: SiOracle, name: "Oracle Apex", color: "text-blue-500" },
+    { icon: TbFileTypeSql, name: "PL/SQL", color: "text-yellow-500" },
+    { icon: SiApache, name: "Apache", color: "text-teal-500" },
   ],
   category: "Full Stack",
   featured: true
+},
+{
+  title: "NexusOps",
+  description: "Role-based enterprise task-tracking platform with JWT authentication and RBAC across four roles, featuring a context-grounded AI assistant that queries live database records before responding to prevent hallucination. Deployed as independently scaled frontend and backend services.",
+  img: nexusOps,
+  link: "https://sajal-singhal.vercel.app/", 
+  github_link: "https://github.com/Sajalsinghal17/NexusOps",
+  tech: [
+    { icon: SiReact, name: "React", color: "text-blue-500" },
+    { icon: SiMongodb, name: "MongoDB", color: "text-green-600" },
+    { icon: SiTailwindcss, name: "TailwindCSS", color: "text-teal-500" },
+    { icon: SiExpress, name: "Express.js", color: "text-yellow-500" },
+    { icon: SiNodedotjs, name: "Node.js", color: "text-green-500" },
+    { icon: SiJsonwebtokens, name: "JWT", color: "text-purple-500" },
+    { icon: SiGooglegemini, name: "Google Gemini", color: "text-orange-500" },
+    { icon: SiVercel, name: "Vercel", color: "text-black" },
+    { icon: SiRender, name: "Render", color: "text-blue-500" }
+  ],
+  category: "Full Stack",
 },
 {
   title: "Portfolio Website",
@@ -64,26 +90,6 @@ const projects = [
     { icon: SiJavascript, name: "JavaScript", color: "text-yellow-500" }
   ],
   category: "Web Development"
-},
-
-  {
-  title: "RepuLens",
-  description: "Built RepuLens, an AI-powered platform for real-time sentiment monitoring, controversy detection, and reputation analysis across major social platforms.",
-  img: repulens,
-  link: "https://repu-lens-c7r3.vercel.app/", 
-  github_link: "https://github.com/Sajalsinghal17/RepuLens-1",
-  tech: [
-    { icon: SiReact, name: "React", color: "text-blue-500" },
-    { icon: SiMongodb, name: "MongoDB", color: "text-green-600" },
-    { icon: SiTailwindcss, name: "TailwindCSS", color: "text-teal-500" },
-    { icon: SiExpress, name: "Express.js", color: "text-yellow-500" },
-    { icon: SiNodedotjs, name: "Node.js", color: "text-green-500" },
-    { icon: SiPostgresql, name: "PostgreSQL", color: "text-blue-600" },
-    { icon: SiTensorflow, name: "TensorFlow", color: "text-orange-500" },
-    { icon: SiDocker, name: "Docker", color: "text-blue-500" },
-    { icon: SiKubernetes, name: "Kubernetes", color: "text-blue-500" }
-  ],
-  category: "Full Stack",
 },
 ];
 
